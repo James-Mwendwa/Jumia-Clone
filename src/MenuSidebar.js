@@ -18,6 +18,10 @@ function MenuSidebar() {
         <a href="">Garden &amp; Outdoors</a>
         <a href="">Other categories</a>
       </div>
+
+      <div className="menuSlider">
+        <img src="images/Electricity.jpg" alt="png" />
+      </div>
     </div>
   );
 }

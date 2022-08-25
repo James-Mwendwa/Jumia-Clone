@@ -1,18 +1,32 @@
 .menuSidebar {
     display: flex;
     align-items: center;
+    width: 196.56px;
+    justify-content: space-between;
     background-color: white;
     margin-left: 50px;
-    height: 366.66px;
-    width: 196.56px;
+    border-radius: 0px;
 }
 
 .menuLinks {
    margin: 10px;
+   top: 0;
+   padding: 10px;
+   height: 366.66px;
+ 
    
 }
 
 .menuLinks > a {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.7);
+    margin-top: 5px;
+    font-size: 14px;
     
+}
+
+.menuSlider {
+    margin-left: 100px;
 }
