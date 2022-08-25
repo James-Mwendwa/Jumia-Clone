@@ -22,6 +22,29 @@ function MenuSidebar() {
       <div className="menuSlider">
         <img src="images/Electricity.jpg" alt="png" />
       </div>
+
+      <div className="menu-left">
+        <div className="menu-leftCard">
+          <div className="menu-leftCardDesc">
+            <h2>HELP CENTER</h2>
+            <p>Guide To Customer Care</p>
+          </div>
+
+          <div className="menu-leftCardDesc">
+            <h2>EASY RETURN</h2>
+            <p>Quick Refund</p>
+          </div>
+
+          <div className="menu-leftCardDesc">
+            <h2>SELL ON JUMIA</h2>
+            <p>Millions Of Visitors</p>
+          </div>
+        </div>
+
+        <div className="menu-leftOffer">
+          <p>Brand festival</p>
+        </div>
+      </div>
     </div>
   );
 }

@@ -30,3 +30,14 @@
 .menuSlider {
     margin-left: 100px;
 }
+
+
+.menu-left{
+    margin-left: 20px;
+}
+.menu-leftCard{
+    height: 183.33;
+    background-color: white;
+    width: 250px;
+    font-size: 14px;
+}
