@@ -1,0 +1,18 @@
+.menuSidebar {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    margin-left: 50px;
+    height: 366.66px;
+    width: 196.56px;
+}
+
+.menuLinks {
+   margin: 10px;
+   
+}
+
+.menuLinks > a {
+    display: block;
+    
+}

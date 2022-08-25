@@ -1,0 +1,15 @@
+.home {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    background-image: url('/public/images/bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #FAF0ED;
+    background-origin: border-box;
+}
+
+.homepageBanner {
+
+}
