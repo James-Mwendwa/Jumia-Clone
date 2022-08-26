@@ -26,23 +26,44 @@ function MenuSidebar() {
       <div className="menu-left">
         <div className="menu-leftCard">
           <div className="menu-leftCardDesc">
-            <h2>HELP CENTER</h2>
-            <p>Guide To Customer Care</p>
+            <div className="menuIcon">
+              <img src="images/help.png" alt="png" />
+            </div>
+            <div className="menuDesc">
+              {" "}
+              <h2> HELP CENTER</h2>
+              <p>Guide To Customer Care</p>
+            </div>
           </div>
 
           <div className="menu-leftCardDesc">
-            <h2>EASY RETURN</h2>
-            <p>Quick Refund</p>
+            <div className="menuIcon">
+              {" "}
+              <img src="images/return.png" alt="png" />
+            </div>
+            <div className="menuDesc">
+              <h2> EASY RETURN</h2>
+              <p>Quick Refund</p>
+            </div>
           </div>
 
           <div className="menu-leftCardDesc">
-            <h2>SELL ON JUMIA</h2>
-            <p>Millions Of Visitors</p>
+            <div className="menuIcon">
+              <img src="images/sell.png" alt="png" />
+            </div>
+            <div className="menuDesc">
+              {" "}
+              <h2>SELL ON JUMIA</h2>
+              <p>Millions Of Visitors</p>
+            </div>
           </div>
         </div>
 
         <div className="menu-leftOffer">
-          <p>Brand festival</p>
+          <h1>5</h1>
+          <p>
+            days <br></br>to go
+          </p>
         </div>
       </div>
     </div>
