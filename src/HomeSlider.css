@@ -1,0 +1,22 @@
+.homeSlides {
+    margin-left: 50px;
+    margin-right: 80px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 7px;
+}
+
+.homeSlides > img {
+   height: 117.18px;
+   width: 117.18px;
+   padding: 10px 0;
+}
+
+.sliderIcon {
+    background-color: grey;
+    color: white;
+    border-radius: 50%;
+    font-size: 20px;
+}
