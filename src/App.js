@@ -2,14 +2,18 @@ import "./App.css";
 import Header from "./Header";
 import Home from "./Home";
 
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+
 const url = "http://localhost:8000/schema";
 
 function App() {
   return (
-    <div className="app">
+    <BrowserRouter>
       <Header />
-      <Home />
-    </div>
+      <Routes>
+        <Route path="/" element={<Home />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 

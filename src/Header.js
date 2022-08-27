@@ -1,5 +1,6 @@
 import React from "react";
 import "./Header.css";
+import { Link } from "react-router-dom";
 
 import SearchIcon from "@mui/icons-material/Search";
 import PersonOutlineIcon from "@mui/icons-material/PersonOutline";
@@ -10,11 +11,13 @@ import HelpOutlineOutlinedIcon from "@mui/icons-material/HelpOutlineOutlined";
 function Header() {
   return (
     <div className="header">
-      <img
-        src="https://1000logos.net/wp-content/uploads/2022/02/Jumia-Logo.png"
-        alt="logo"
-        className="header-icon"
-      />
+      <Link to="/">
+        <img
+          src="https://1000logos.net/wp-content/uploads/2022/02/Jumia-Logo.png"
+          alt="logo"
+          className="header-icon"
+        />
+      </Link>
 
       <div className="header-center">
         <div className="header-centerInput">
