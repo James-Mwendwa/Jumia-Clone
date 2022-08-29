@@ -1,0 +1,16 @@
+.playStations {
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 80px;
+    background-color: #fff;
+}
+
+.playCard {
+    margin-top: 50px;
+}
+
+.playCard > img {
+    height: 200px;
+    width: 200px;
+}
