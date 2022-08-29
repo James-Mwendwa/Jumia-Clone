@@ -1,16 +1,30 @@
 .playStations {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     margin-left: 50px;
-    margin-right: 80px;
-    background-color: #fff;
+    margin-right: 125px;
+    background-color: #fff !important;
+    margin-top: 20px;
+    border-radius: 7px;
 }
 
 .playCard {
-    margin-top: 50px;
+    margin-top: 10px;
+    margin-right: 10px;
 }
 
 .playCard > img {
-    height: 200px;
-    width: 200px;
+    height: 180px;
+    width: 180px;
+    background-color: white;
+}
+
+.playCard > h3 {
+    display: grid;
+    place-content: center;
+    font-size: 16px;
+    color: black;
+    opacity: 0.8;
+    margin: 0 20px;
 }
