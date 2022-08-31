@@ -1,0 +1,37 @@
+.footerTop {
+    display: flex;
+
+}
+
+.footerTopRight {
+    display: flex;
+    align-items: center;
+}
+
+.footerSocials {
+    display: flex;
+    align-items: center;
+}
+
+.jumiaApp {
+    display: flex;
+    align-items: center;
+}
+
+.jumiaApp > img {
+    object-fit: contain;
+    height: 40px;
+}
+
+.appStores {
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.appStores > img {
+    object-fit: contain;
+    height: 80px;
+    width: 120px;
+}
