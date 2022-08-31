@@ -6,7 +6,7 @@ function MenuSidebar() {
   return (
     <div className="menuSidebar">
       <div className="menuLinks">
-        <Link to="https://www.jumia.co.ke/groceries/">Supermarket</Link>
+        <Link to="/cart">Supermarket</Link>
         <Link to="//">Health &amp; Beauty</Link>
         <Link to="//">Home &amp; Office</Link>
         <Link to="//">Phones &amp; Tablets</Link>

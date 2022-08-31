@@ -1,0 +1,94 @@
+.cart {
+    height: 100vh;
+    width: 100%;
+    background-color: #F3F3F3;
+}
+
+.cartCard {
+    margin-left: 50px;
+    margin-right: 80px;
+    padding: 10px;
+    
+}
+
+.cartCount {
+    margin-top: 10px;
+    height: 50px;
+    background-color: #fff;
+    color: #333333;
+    border-radius: 7px;
+}
+
+.cartCount > p {
+    padding: 10px;
+    font-size: 22px;
+}
+
+.itemCard {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 5px;
+    background-color: #fff;
+}
+
+.itemCardLeft {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.itemCardLeft > img {
+    height: 100px;
+    margin: 10px 0;
+}
+
+.itemCardLeft > span {
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+    color: #FFA500;
+}
+
+.itemCardLeft>span > button {
+    border: none;
+    color: #FFA500;
+    background-color: #fff;
+    font-size: 15px;
+}
+
+.cartCardRight {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.itemCardAdd {
+    display: flex;
+    align-items: center;
+    margin-top: 80px;
+    padding: 15px;
+}
+
+.itemCardAdd > span {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.itemIcon {
+    background-color: #FFA500;
+    color: #fff;
+    border-radius: 5px;
+ 
+}
+
+.amountCard {
+    width: 250px;
+    background-color: #FFA500;
+    padding: 10px;
+    margin-right: 80px;
+}
