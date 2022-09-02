@@ -4,11 +4,16 @@
     background-color: #F3F3F3;
 }
 
+.cartBanner {
+    display: flex;
+    align-items: center;
+}
+
 .cartCard {
     margin-left: 50px;
-    margin-right: 80px;
     padding: 10px;
-    
+    width: 940px;
+   
 }
 
 .cartCount {
@@ -40,7 +45,19 @@
     padding: 10px;
 }
 
-.itemCardLeft > img {
+.itemContainer {
+    display: flex;
+    align-items: center;
+}
+
+.itemContainer > p {
+    margin-top: -80px;
+    margin-left: 10px;
+    font-size: 16px;
+}
+
+
+.itemContainer > img {
     height: 100px;
     margin: 10px 0;
 }
@@ -48,7 +65,8 @@
 .itemCardLeft > span {
     display: flex;
     align-items: center;
-    margin: 5px 0;
+    margin-top: 5px;
+    margin-right: 55px;
     color: #FFA500;
 }
 
@@ -59,36 +77,85 @@
     font-size: 15px;
 }
 
-.cartCardRight {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: space-between;
-}
 
 .itemCardAdd {
-    display: flex;
-    align-items: center;
-    margin-top: 80px;
-    padding: 15px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   margin-top: 80px;
+   margin-right: 15px;
+}
+
+.itemCardAdd > button {
+    border-radius: 7px;
+    border: none;
+    background-color: #ED7014;
+    color: #fff;
+    padding: 5px;
 }
 
 .itemCardAdd > span {
+    color: #333333;
+    margin: 0 5px;
+}
+
+
+.amountCard {
+    width: 269px;
+    margin-right: 80px;
+    margin-top: -85px;
+    
+}
+
+.cartSummary {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    height: 30px;
+    background-color: #fff;
+    color: #333333;
+    font-size: 14px;
+}
+
+.cartSummary > p {
+    padding: 10px;
+}
+
+.subTotal {
     display: flex;
     align-items: center;
     justify-content: space-between;
-}
-
-.itemIcon {
-    background-color: #FFA500;
-    color: #fff;
-    border-radius: 5px;
- 
-}
-
-.amountCard {
-    width: 250px;
-    background-color: #FFA500;
+    background-color: #fff;
+    margin-top: 5px;
+    height: 50px;
     padding: 10px;
-    margin-right: 80px;
+}
+
+.subTotal > p {
+    font-size: 16px;
+}
+
+.subTotal > h2 {
+    color: #333333;
+    font-size: 22px;
+}
+
+.amountCheckout {
+    display: grid;
+    place-content: center;
+    margin-top: 5px;
+    background-color: #fff;
+    padding: 10px;
+    height: 50px;
+}
+
+.amountCheckout > button {
+    display: grid;
+    place-items: center;
+    border: none;
+    background-color: #ED7014;;
+    color: #fff;
+    font-size: 14px;
+    padding: 10px 45px;
+    border-bottom: 7px;
 }
