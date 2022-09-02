@@ -75,6 +75,7 @@
     color: #FFA500;
     background-color: #fff;
     font-size: 15px;
+    cursor: pointer;
 }
 
 
@@ -92,6 +93,7 @@
     background-color: #ED7014;
     color: #fff;
     padding: 5px;
+    cursor: pointer;
 }
 
 .itemCardAdd > span {
@@ -158,4 +160,5 @@
     font-size: 14px;
     padding: 10px 45px;
     border-bottom: 7px;
+    cursor: pointer;
 }
