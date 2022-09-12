@@ -10,7 +10,7 @@ function MenuSidebar() {
         <Link to="/health">Health &amp; Beauty</Link>
         <Link to="//">Home &amp; Office</Link>
         <Link to="//">Phones &amp; Tablets</Link>
-        <Link to="//">Computing</Link>
+        <Link to="/checkout">Computing</Link>
         <Link to="//">Electronics</Link>
         <Link to="//">Fashion</Link>
         <Link to="/gaming">Gaming</Link>

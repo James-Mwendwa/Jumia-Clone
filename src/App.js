@@ -5,6 +5,7 @@ import Gaming from "./Gaming";
 import Footer from "./Footer";
 import Cart from "./Cart";
 import Health from "./Health";
+import CheckoutCard from './CheckoutCard'
 
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
@@ -17,6 +18,7 @@ function App() {
         <Route path="/gaming" element={<Gaming />} />
         <Route path="/cart" element={<Cart />} />
         <Route path="/health" element={<Health />} />
+        <Route path="/checkout" element={<CheckoutCard />} />
       </Routes>
       <Footer />
     </BrowserRouter>

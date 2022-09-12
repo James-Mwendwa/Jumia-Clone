@@ -1,0 +1,14 @@
+.checkout {
+    background-color: #f3f3f3;
+}
+
+.checkoutCenter {
+    background-color: #fff;
+    display: grid;
+    place-items: center;
+    margin-left: 50px;
+    margin-right: 80px;
+    width: 100%;
+    height: 50vh;
+    border-radius: 7px;
+}
