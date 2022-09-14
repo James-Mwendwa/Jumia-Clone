@@ -52,13 +52,15 @@
 }
 
 .menuIcon {
-margin-top: 10px;
+margin-top: 14px;
 }
 
 
 .menuIcon > img {
     font-size: 14px;
     margin: 0 10px;
+    height: 40px;
+    width: 40px;
 }
 
 

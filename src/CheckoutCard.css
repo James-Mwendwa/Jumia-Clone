@@ -1,14 +1,47 @@
 .checkout {
     background-color: #f3f3f3;
+    padding: 20px 0;
 }
 
 .checkoutCenter {
     background-color: #fff;
     display: grid;
     place-items: center;
-    margin-left: 50px;
-    margin-right: 80px;
-    width: 100%;
+    align-items: center;
     height: 50vh;
     border-radius: 7px;
+    margin-left: 50px;
+    margin-right: 80px;   
+}
+
+.checkoutCenter > img {
+   object-fit: contain; 
+   height: 100px;
+}
+
+.checkoutCenter > h3 {
+   font-size: 18px;
+   font-weight: 500;
+   margin-top: -10px;
+}
+
+.checkoutCenter > p {
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 25px;
+}
+
+.checkoutCenter > button {
+    background-color: #FFA500;
+    color: #fff;
+    border: none;
+    padding: 15px;
+    font-size: 14px;
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-bottom: 15px;
+    cursor: pointer;
 }

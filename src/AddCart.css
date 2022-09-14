@@ -1,0 +1,20 @@
+.addCart {
+    display: flex;
+    align-items: center;
+    background-color: #FFA500;
+    color: #fff;
+    margin-top: 20px;
+    width: 150px;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.addCart > button {
+    border: none;
+    color: #fff;
+    font-size: 14px;
+    background-color: #FFA500;
+    margin-left: 7px;
+    cursor: pointer;
+}

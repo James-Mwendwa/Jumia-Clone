@@ -1,8 +1,8 @@
 import React from "react";
 import "./Gaming.css";
 import PlayStationCard from "./PlayStationCard";
-
 import KeyboardArrowRightIcon from "@mui/icons-material/KeyboardArrowRight";
+import AddCart from "./AddCart";
 
 function Gaming() {
   return (
@@ -28,12 +28,15 @@ function Gaming() {
             <p>Sony PSN Wallet Top Up...</p>
             <p>Ksh 3,999</p>
             <s>Ksh 4,500</s>
+            <AddCart />
           </div>
 
           <div className="gamesCard">
             <img src="images/gaming/gaming2.jpg" alt="" />
             <p>Fifa FIFA 20 PS4</p>
             <p>Ksh 5,999</p>
+            <s>Ksh 6,500</s>
+            <AddCart />
           </div>
 
           <div className="gamesCard">
@@ -41,6 +44,7 @@ function Gaming() {
             <p>Sony PSN Wallet Top Up...</p>
             <p>Ksh 3,999</p>
             <s>Ksh 4,800</s>
+            <AddCart />
           </div>
 
           <div className="gamesCard">
@@ -48,6 +52,7 @@ function Gaming() {
             <p>Generic Pop Station</p>
             <p>Ksh 799</p>
             <s>Ksh 1,500</s>
+            <AddCart />
           </div>
 
           <div className="gamesCard">
@@ -55,6 +60,7 @@ function Gaming() {
             <p>Generic BRICK LCD</p>
             <p>Ksh 689</p>
             <s>Ksh 1,378</s>
+            <AddCart />
           </div>
 
           <div className="gamesCard">
@@ -62,6 +68,7 @@ function Gaming() {
             <p>Otvo Dual PS4 Controller</p>
             <p>Ksh 1,649</p>
             <s>Ksh 3,000</s>
+            <AddCart />
           </div>
         </div>
       </div>
@@ -81,6 +88,7 @@ function Gaming() {
             <p>Sony Computer Entertain...</p>
             <p>Ksh 2,899</p>
             <s>Ksh 5,000</s>
+            <AddCart />
           </div>
 
           <div className="gamesCard">
@@ -88,6 +96,7 @@ function Gaming() {
             <p>Sony Computer Entertain...</p>
             <p>Ksh 2,850</p>
             <s>3,700</s>
+            <AddCart />
           </div>
 
           <div className="gamesCard">
@@ -95,6 +104,7 @@ function Gaming() {
             <p>Sony Computer Entertain...</p>
             <p>Ksh 3,299</p>
             <s>Ksh 4,500</s>
+            <AddCart />
           </div>
 
           <div className="gamesCard">
@@ -102,6 +112,7 @@ function Gaming() {
             <p>Sony Computer Entertain...</p>
             <p>Ksh 2,200</p>
             <s>Ksh 3,550</s>
+            <AddCart />
           </div>
 
           <div className="gamesCard">
@@ -109,6 +120,7 @@ function Gaming() {
             <p>Sony PS4 Need For Speed...</p>
             <p>Ksh 2,600</p>
             <s>Ksh 3,600</s>
+            <AddCart />
           </div>
 
           <div className="gamesCard">
@@ -116,6 +128,7 @@ function Gaming() {
             <p>EA Sports Need For Speed</p>
             <p>Ksh 2,850</p>
             <s>Ksh 4,500</s>
+            <AddCart />
           </div>
         </div>
       </div>
