@@ -1,6 +1,7 @@
 .footer {
     color: white;
     background-color: #333333;
+    height: 50vh;
 }
 
 .footerTop {
@@ -11,6 +12,10 @@
     margin-right: 80px;
 }
 
+.footerTop > img {
+    margin-top: -60px;
+}
+
 .footerTopRight {
     display: flex;
     align-items: center;
@@ -18,10 +23,52 @@
     margin-top: 10px;
 }
 
+.footerNewsletter {
+    align-items: center; 
+    margin-right: 70px;   
+    
+}
+
+.footerNewsletter > h2 {
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.footerNewsletter > p {
+    font-size: 14px;
+    margin: 20px 0;
+}
+
+.footerInput {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.footerInput > input {
+    padding: 10px 20px;
+    border-radius: 7px;
+    font-size: 13px;
+    border: none;
+}
+
+.footerInput > button {
+    padding: 10px 15px;
+    color: #fff;
+    background-color: #333333;
+    border: 1px solid #fff;
+    font-size: 14px;
+    border-radius: 7px;
+}
+
 .footerSocials {
     display: flex;
     flex-direction: column;
+    margin-top: -10px;
 }
+
 
 .jumiaApp {
     display: flex;
@@ -29,29 +76,38 @@
     margin-left: 20px;
 }
 
-.jumiaApp > img {
+.jumiaApp>img {
     object-fit: contain;
-    height: 40px;
-    color: white;
+    height: 35px;
 }
 
-.jumiaAppDesc > h2 {
-    font-size: 16px;
+.jumiaAppDesc {
+    margin-left: 10px;
 }
 
-.jumiaAppDesc > p {
+
+.jumiaAppDesc>h2 {
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.jumiaAppDesc>p {
     font-size: 14px;
+    margin: 5px 0;
 }
 
 .appStores {
     display: flex;
-    flex-direction: row;
+    align-items: center;
+    background-color: #333333;
 
 }
 
 
 .appStores > img {
     object-fit: contain;
-    height: 80px;
-    width: 120px;
+    width: 100px;
+    border: 1px solid #fff;
+    margin-left: 20px;
+    margin-top: 10px;
 }

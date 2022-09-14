@@ -13,7 +13,7 @@ function Footer() {
 
         <div className="footerTopRight">
           <div className="footerNewsletter">
-            <h2>NEW TO JUMIA</h2>
+            <h2>NEW TO JUMIA?</h2>
             <p>
               Subscribe to our newsletter to get updates on our latest offers!
             </p>
@@ -39,14 +39,11 @@ function Footer() {
             </div>
             <div className="appStores">
               <img
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVVo7Z0tGlHn7wbZWlMZdB_JhkCQxSoUGN_fLoh3wH-Jx_sGspzFyEEtcAjrH5FtR992I&usqp=CAU"
-                alt=""
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTF4nJBnv9fctPP2IV8rc0Uh3u6XE7iHWzHETXE1_-SLbU-j-scsVJJ_JQtw5i7iNlZ_A&usqp=CAU"
+                alt="appStore"
               />
 
-              <img
-                src="https://static.vecteezy.com/system/resources/previews/002/520/833/original/download-app-button-google-play-store-graphics-free-vector.jpg"
-                alt=""
-              />
+              <img src="https://logodix.com/logo/858039.png" alt="googlePlay" />
             </div>
           </div>
         </div>
