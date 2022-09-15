@@ -1,0 +1,14 @@
+[
+ {
+            "id": 1,
+            "product":"https://ke.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/81/456182/2.jpg?7592",
+            "price": 271,
+            "category": "Top Picks For You"
+        },
+        {
+            "id": 2,
+            "product":"https://ke.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/49/109074/1.jpg?0384",
+            "price": 271,
+            "category": "Top Picks For You"
+        }
+]

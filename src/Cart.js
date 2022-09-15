@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Cart.css";
 
 import DeleteOutlineIcon from "@mui/icons-material/DeleteOutline";
@@ -6,6 +6,14 @@ import AddIcon from "@mui/icons-material/Add";
 import RemoveIcon from "@mui/icons-material/Remove";
 
 function Cart() {
+  const [addItem, setAddItem] = useState(0);
+
+  const add = (amount = 6000, addItem) => {
+    let total = amount * 2;
+  };
+
+  add();
+
   return (
     <div className="cart">
       <div className="cartBanner">
@@ -23,7 +31,7 @@ function Cart() {
 
               <span>
                 <DeleteOutlineIcon />
-                <button>REMOVE</button>
+                <button onClick={() => setAddItem(addItem - 1)}>REMOVE</button>
               </span>
             </div>
 
@@ -33,8 +41,8 @@ function Cart() {
                 <button>
                   <RemoveIcon className="itemIcon" />
                 </button>
-                <span>1</span>
-                <button>
+                <span>{addItem}</span>
+                <button onClick={() => setAddItem(addItem + 1)}>
                   <AddIcon className="itemIcon" />
                 </button>
               </div>
