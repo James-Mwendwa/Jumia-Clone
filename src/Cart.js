@@ -8,12 +8,6 @@ import RemoveIcon from "@mui/icons-material/Remove";
 function Cart() {
   const [addItem, setAddItem] = useState(0);
 
-  const add = (amount = 6000, addItem) => {
-    let total = amount * 2;
-  };
-
-  add();
-
   return (
     <div className="cart">
       <div className="cartBanner">

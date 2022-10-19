@@ -1,7 +1,6 @@
 import React from "react";
 import "./AddCart.css";
 import AddShoppingCartIcon from "@mui/icons-material/AddShoppingCart";
-import products from "../products.json";
 
 function AddCart() {
   return (

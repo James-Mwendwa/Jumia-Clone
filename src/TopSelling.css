@@ -48,13 +48,15 @@
     cursor: pointer;
 }
 
-.digitalGamesCards1 {
+.digitalGamesCards1
+ {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    flex-wrap: wrap;
+    
     margin: 20px 10px;
 }
+
 
 .gamesCard1>img {
     height: 180px;

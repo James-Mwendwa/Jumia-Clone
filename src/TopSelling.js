@@ -1,6 +1,7 @@
 import React from "react";
 import "./TopSelling.css";
 import AddCart from "./AddCart";
+import { products } from "./data/data";
 
 function TopSelling() {
   return (
@@ -9,6 +10,26 @@ function TopSelling() {
         <div className="digitalGamesTop1">
           <p>Top selling items</p>
         </div>
+
+        {products.map((product, index) => {
+          return (
+            <div className="digitalGamesCards1" key={product.index}>
+              <div className="gamesCard1">
+                <img src={product.image} alt={product.image} />
+                <p>{product.title}</p>
+                <p>{product.price}</p>
+                <s>{product.price2}</s>
+              </div>
+            </div>
+          );
+        })}
+      </div>
+      {/* <div className="digitalGames1">
+        <div className="digitalGamesTop1">
+          <p>Top selling items</p>
+        </div>
+
+
 
         <div className="digitalGamesCards1">
           <div className="gamesCard1">
@@ -60,6 +81,9 @@ function TopSelling() {
           </div>
         </div>
       </div>
+
+
+
 
       <div className="digitalGames1">
         <div className="digitalGamesTop1">
@@ -118,7 +142,7 @@ function TopSelling() {
       </div>
       <div className="gaming1">
         <img src="images/gaming/Playstation_Sales.jpg" alt="gaming" />
-      </div>
+      </div> */}
     </div>
   );
 }
