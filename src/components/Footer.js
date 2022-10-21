@@ -1,5 +1,6 @@
 import React from "react";
 import "./Footer.css";
+import AddCart from "./AddCart";
 
 function Footer() {
   return (

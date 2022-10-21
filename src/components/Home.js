@@ -1,7 +1,7 @@
 import "./Home.css";
-import HomeSlider from "./HomeSlider";
-import MenuSidebar from "./MenuSidebar";
-import TopSelling from "./TopSelling";
+import HomeSlider from "../components/HomeSlider";
+import MenuSidebar from "../components/MenuSidebar";
+import TopSelling from "../components/TopSelling";
 
 function Home() {
   return (

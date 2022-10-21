@@ -42,3 +42,48 @@ export const topProducts = [
     price2: 3000,
   },
 ];
+
+export const dressProducts = [
+  {
+    id: 11,
+    image: "images/Top-selling/women1.jpg",
+    title: "Fashion Ladies Official...",
+    price: 2999,
+    price2: 3500,
+  },
+  {
+    id: 21,
+    image: "images/Top-selling/women2.jpg",
+    title: "Fashion Women's Office...",
+    price: 2850,
+    price2: 3700,
+  },
+  {
+    id: 31,
+    image: "images/Top-selling/women3.jpg",
+    title: "Fashion Ladies Long...",
+    price: 2299,
+    price2: 3580,
+  },
+  {
+    id: 41,
+    image: "images/Top-selling/women4.jpg",
+    title: "Fashion Women's Floral...",
+    price: 2799,
+    price2: 3500,
+  },
+  {
+    id: 51,
+    image: "images/Top-selling/women5.jpg",
+    title: "Fashion Ladies Dress...",
+    price: 2699,
+    price2: 3300,
+  },
+  {
+    id: 61,
+    image: "images/Top-selling/women6.jpg",
+    title: "Fashion Ladies Short",
+    price: 2699,
+    price2: 4500,
+  },
+];

@@ -1,11 +1,11 @@
 import "./App.css";
-import Header from "./Header";
-import Home from "./Home";
-import Gaming from "./Gaming";
-import Footer from "./Footer";
-import Cart from "./Cart";
-import Health from "./Health";
-import CheckoutCard from './CheckoutCard'
+import Header from "./components/Header";
+import Home from "./components/Home";
+import Gaming from "./components/Gaming";
+import Footer from "./components/Footer";
+import Cart from "./components/Cart";
+import Health from "./components/Health";
+import CheckoutCard from "./components/CheckoutCard";
 
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
