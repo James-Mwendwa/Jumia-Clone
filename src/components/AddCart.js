@@ -6,7 +6,6 @@ function AddCart() {
   return (
     <div className="addCart">
       <AddShoppingCartIcon />
-
       <button>ADD TO CART</button>
     </div>
   );
