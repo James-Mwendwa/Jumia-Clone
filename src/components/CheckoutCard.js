@@ -1,5 +1,6 @@
 import React from "react";
 import "../components/CheckoutCard.css";
+import { Link } from "react-router-dom";
 
 function CheckoutCard() {
   return (
@@ -11,7 +12,9 @@ function CheckoutCard() {
         />
         <h3>Your cart is empty!</h3>
         <p>Browse our categories and discover our best deals!</p>
-        <button>START SHOPPING</button>
+        <Link to="/">
+          <button>START SHOPPING</button>
+        </Link>
       </div>
     </div>
   );

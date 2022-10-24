@@ -6,7 +6,7 @@ function MenuSidebar() {
   return (
     <div className="menuSidebar">
       <div className="menuLinks">
-        <Link to="/cart">Supermarket</Link>
+        <Link to="//">Supermarket</Link>
         <Link to="/health">Health &amp; Beauty</Link>
         <Link to="//">Home &amp; Office</Link>
         <Link to="//">Phones &amp; Tablets</Link>

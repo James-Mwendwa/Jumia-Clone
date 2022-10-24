@@ -3,12 +3,12 @@ import HomeSlider from "../components/HomeSlider";
 import MenuSidebar from "../components/MenuSidebar";
 import TopSelling from "../components/TopSelling";
 
-function Home() {
+function Home({ addProducts }) {
   return (
     <div className="home">
       <MenuSidebar />
       <HomeSlider />
-      <TopSelling />
+      <TopSelling addProducts={addProducts} />
     </div>
   );
 }

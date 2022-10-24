@@ -45,7 +45,9 @@ function Header() {
 
       <div className="header-rightCart">
         <ShoppingCartOutlinedIcon />
-        <h2>Cart</h2>
+        <Link to="/cart">
+          <h2>Cart</h2>
+        </Link>
       </div>
     </div>
   );

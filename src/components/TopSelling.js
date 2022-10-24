@@ -4,7 +4,7 @@ import KeyboardArrowRightIcon from "@mui/icons-material/KeyboardArrowRight";
 import { topProducts } from "../data/data";
 import { dressProducts } from "../data/data";
 
-function TopSelling() {
+function TopSelling({ addProducts }) {
   return (
     <div className="container1">
       <div className="selling">
@@ -25,6 +25,9 @@ function TopSelling() {
                     <p>{product.title}</p>
                     <p>Ksh {product.price}</p>
                     <s>Ksh {product.price2}</s>
+                    <button onClick={() => addProducts(topProducts)}>
+                      Add to Cart
+                    </button>
                   </div>
                 </div>
               );

@@ -80,7 +80,12 @@
 }
 
 .header-rightCart {
-    margin-right: 80px ;
+    margin-right: 80px;
+}
+
+.header-rightCart > a {
+    text-decoration: none;
+    color: #282828;
 }
 
 
