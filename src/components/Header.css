@@ -81,6 +81,12 @@
     margin: 0 10px;
 }
 
+.header-rightAccount > button {
+    border: none;
+    background-color: #fff;
+    cursor: pointer;
+}
+
 .header-rightCart {
     margin-right: 80px;
 }
@@ -93,8 +99,19 @@
 
 
 .header-rightCart:hover,
-.header-rightAccount:hover,
+.header-rightAccount > h2:hover,
+header-rightAccount > button:hover,
 .header-rightHelp:hover {
    color: #ED7014;
    opacity: 0.8;
+}
+
+.signIn {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    margin-top: 270px;
+    padding-right: 20px;
+    margin-right: 40px;
+    z-index: 2;
 }

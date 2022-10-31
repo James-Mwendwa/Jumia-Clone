@@ -9,6 +9,7 @@ import Health from "./components/Health";
 import CheckoutCard from "./components/CheckoutCard";
 
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+import SignIn from "./components/SignIn";
 
 function App() {
   const [cartItems, setCartItems] = useState([]);
@@ -64,6 +65,7 @@ function App() {
         />
         <Route path="/health" element={<Health />} />
         <Route path="/checkout" element={<CheckoutCard />} />
+        <Route path="/signin" element={<SignIn />} />
       </Routes>
       <Footer />
     </BrowserRouter>

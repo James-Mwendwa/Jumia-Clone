@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Header.css";
 import { Link } from "react-router-dom";
 
@@ -6,9 +6,13 @@ import SearchIcon from "@mui/icons-material/Search";
 import PersonOutlineIcon from "@mui/icons-material/PersonOutline";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import ShoppingCartOutlinedIcon from "@mui/icons-material/ShoppingCartOutlined";
+import ExpandLessIcon from "@mui/icons-material/ExpandLess";
 import HelpOutlineOutlinedIcon from "@mui/icons-material/HelpOutlineOutlined";
+import Login from "./Login";
 
 function Header() {
+  const [isActive, setIsActive] = useState(false);
+
   return (
     <div className="header">
       <Link to="/">
@@ -34,7 +38,14 @@ function Header() {
       <div className="header-rightAccount">
         <PersonOutlineIcon />
         <h2>Account</h2>
-        <ExpandMoreIcon />
+        <button onClick={(e) => setIsActive(!isActive)}>
+          {isActive ? <ExpandLessIcon /> : <ExpandMoreIcon />}
+        </button>
+        {isActive && (
+          <div className="signIn">
+            <Login />
+          </div>
+        )}
       </div>
 
       <div className="header-rightHelp">

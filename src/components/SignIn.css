@@ -1,0 +1,56 @@
+.signInCard {
+    height: 80vh;
+    margin-top: 20px;
+    display: grid;
+    place-items: center;
+    width: 100%;    
+}
+
+.desc {
+    margin-left: 50px;
+}
+
+.desc > h2 {
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+.desc > p {
+    font-size: 16px;
+}
+
+
+
+.form > form > input {
+    margin-left: 10px;
+    padding: 10px 30px;
+    width: 100%;
+    outline: none;
+    border: 1px solid lightslategrey;
+    font-size: 18px;
+    border-radius: 7px;
+}
+
+
+.form > form > button {
+    padding: 15px 30px;
+    width: 100%;
+    margin-top: 20px;
+    font-size: 18px;
+    margin-left: 10px;
+    color: #fff;
+    background-color:#ED7014;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+
+}
+
+.signInCard > button {
+    border: none;
+    color: #ED7014;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #fff;
+    cursor: pointer;
+}
