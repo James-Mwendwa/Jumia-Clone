@@ -11,11 +11,7 @@ function SignIn() {
 
   return (
     <div className="signInCard">
-      <img
-        src="https://play-lh.googleusercontent.com/hmYFFt3JfgbJAw92mHNccyS7puIHXDe_8SzPzHzw4pdr4qLYiR3rgEg9dEEs0dZ8vw"
-        alt="logo"
-        className="header-icon"
-      />
+      <img src="images/unnamed.png" alt="logo" className="header-icon" />
       <div className="desc">
         <h2>What's your email address?</h2>
         <p>Type your email to log in or create a Jumia account.</p>
